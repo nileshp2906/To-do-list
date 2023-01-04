@@ -163,6 +163,18 @@ h1 {
 .make-list:focus {
   border: 1px solid rgb(209, 97, 209);
 }
+
+span {
+  display: block;
+  position: absolute;
+  bottom: 20%;
+  width: 25%;
+  left: 50%;
+  font-size: 13px;
+  text-align: center;
+  z-index: -1;
+  transform: translateX(-50%);
+}
 /* ==========================================================================
 1.to do list styling End here
 ========================================================================== */
